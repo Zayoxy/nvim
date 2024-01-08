@@ -406,6 +406,9 @@ vim.wo.number = true
 -- Enable relative line number
 vim.wo.relativenumber = true
 
+-- Minimal line between the cursor and top/bottom
+vim.wo.scrolloff = 10
+
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
